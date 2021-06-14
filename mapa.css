@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+#mapid{
+    background: #CCC;
+    position: absolute;
+  
+    top: 46px;
+    bottom: 0px;
+    left: 0px;
+  
+    width: 75%;
+  
+  }
+
+  #right {
+    position: absolute;
+    background-color: cadetblue;
+    top: 45px;
+    right: 0px;
+    bottom: 0px;
+    width: 25%;
+  }
+
+  #elementos {
+    margin-left: 10px;
+  }
+
+  #btnEstacionamientos, #btnComercios {
+    margin-bottom: 5px;
+    width: 120px;
+    height: 55px;
+  }
+
+  #infoComercio1, 
+  #infoComercio2, 
+  #infoComercio3, 
+  #infoComercio4, 
+  #infoAuto {
+    margin-top: 100px;
+    margin-left: 60px;
+  }
+
+  #imgMcDonalds{
+    margin-left: 50px;
+  }
+
+  #imgBurgerKing{
+    margin-left: 65px;
+  }
+
+  #imgMostaza{
+    margin-left: 50px;
+  }
+
+  #imgTodoModa{
+    margin-left: 45px;
+  }
+
+  #imgMiAuto{
+    margin-left: 70px;
+  }

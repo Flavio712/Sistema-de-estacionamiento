@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Consulta de Infracciones - Sistema de Estacionaminetos</title>
+
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="navbar.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="infracciones.css">
+
+    <script src="infracciones.js"></script>
+    <script src="config.js"></script>
+
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="mapa.html">MAPA</a></li>
+            <li><a class="active" href="infracciones.html">CONSULTAR INFRACCIONES</a></li>
+        </ul>
+    </div>
+    <div id="contForm">
+        <form id="form">
+            <label for="patente">Ingrese la patente</label>
+            <input type="text" id="patente">
+            <input type="submit" id="botonsubmit"  onclick="guardarDatos()" value="Consultar"> 
+        </form>
+        <div id="infoInfracciones"></div>
+        <button id="btnverDeposito"> Su vehiculo fue remolcado,<br> presione aqui para ver el deposito </button>
+        <div id="ingresePatente"></div>
+    </div>
+</body>
+</html>

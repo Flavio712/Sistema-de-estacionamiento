@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Sistema de estacionamientos</title>
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="mapa.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="navbar.css">
+
+
+    <link rel="stylesheet" href="./leaflet/leaflet.css">
+    <script src="./leaflet/leaflet.js"></script>
+    <script src="./mapa.js"></script>
+
+    <link rel="stylesheet" href="./leaflet/MarkerCluster.css">
+    <link rel="stylesheet" href="./leaflet/MarkerCluster.Default.css">
+    <script src="./leaflet/leaflet.markercluster-src.js"></script>
+
+
+</head>
+<body onload="bootstrap();">
+    <div id="navbar">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a class= "active" href="mapa.html">MAPA</a></li>
+            <li><a href="infracciones.html">CONSULTAR INFRACCIONES</a></li>
+        </ul>
+    </div>
+    <div id="mapid">
+    </div>
+    <div id="right">
+        <div id="elementos">
+            <h2>Sistema de estacionamientos</h2>
+           
+            <button id="btnEstacionamientos">Mostrar Estacionamientos Libres</button>
+            <button id="btnComercios">Mostrar Comercios Adheridos</button>
+
+        </div>
+        <div id="infoComercio1"><b>Mc donalds</b><br>Horario:8:00 a 20:00<br>Direccion: Ruta Provincial 8 km 45</div>
+        <div id="infoComercio2"><b>Burger King</b><br>Horario:8:00 a 20:00<br>Direccion: 9 de Julio 1423</div>
+        <div id="infoComercio3"><b>Todo Moda</b><br>Horario:8:00 a 20:00<br>Direccion: Jose Leon Suarez 456</div>
+        <div id="infoComercio4"><b>Mostaza</b><br>Horario:8:00 a 20:00<br>Direccion: Ruta Provincial 8 km 44</div>
+        <div id="infoAuto"><b>Mi Ubicación</b><br>Direccion: Mozart 1300</div>
+        <div id="imgMiAuto"><img src="miAuto.png"></div>
+        <div id="imgMcDonalds"><img src="mcdonalds.png"></div>
+        <div id="imgBurgerKing"><img src="burgerking.png"></div>
+        <div id="imgMostaza"><img src="mostaza.jpg"></div>
+        <div id="imgTodoModa"><img src="todomoda.png"></div>
+    </div>
+</body>
+</html>

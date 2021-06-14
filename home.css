@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-color: cadetblue;
+}
+
+#bienvenida {
+    width: 40%;
+    position: absolute;
+    top: 40px;
+}
+
+p {
+    margin-top: 25%;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
