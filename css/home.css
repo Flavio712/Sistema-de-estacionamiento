@@ -4,13 +4,13 @@ body {
 }
 
 #bienvenida {
-    width: 40%;
+    width: 100%;
     position: absolute;
     top: 40px;
 }
 
 p {
-    margin-top: 25%;
+    margin-top: 15%;
     font-size: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;

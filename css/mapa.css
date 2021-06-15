@@ -25,9 +25,15 @@ body {
 
   #elementos {
     margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #elementos h2 {
+    text-align: center;
   }
 
   #btnEstacionamientos, #btnComercios {
+    text-align: center;
     margin-bottom: 5px;
     width: 120px;
     height: 55px;
@@ -39,25 +45,27 @@ body {
   #infoComercio4, 
   #infoAuto {
     margin-top: 100px;
-    margin-left: 60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   #imgMcDonalds{
-    margin-left: 50px;
+    margin-left: 10px;
   }
 
   #imgBurgerKing{
-    margin-left: 65px;
+    margin-left: 15px;
   }
 
   #imgMostaza{
-    margin-left: 50px;
+    margin-left: 10px;
   }
 
   #imgTodoModa{
-    margin-left: 45px;
+    margin-left: 10px;
   }
 
   #imgMiAuto{
-    margin-left: 70px;
+    margin-left: 10px;
   }
