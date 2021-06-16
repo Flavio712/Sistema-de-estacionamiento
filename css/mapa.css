@@ -50,22 +50,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  #imgMcDonalds{
-    margin-left: 10px;
-  }
-
-  #imgBurgerKing{
-    margin-left: 15px;
-  }
-
-  #imgMostaza{
-    margin-left: 10px;
-  }
-
-  #imgTodoModa{
-    margin-left: 10px;
-  }
-
-  #imgMiAuto{
+  #imgMcDonalds,
+  #imgBurgerKing,
+  #imgMostaza,
+  #imgTodoModa,
+  #imgMiAuto
+  {
     margin-left: 10px;
   }
